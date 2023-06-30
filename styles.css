@@ -88,4 +88,5 @@ form input, .btn {
   padding: 1rem;
   margin: 5px 0;
   display: none;
+  cursor: pointer;
 }
