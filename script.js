@@ -35,6 +35,7 @@ function calculateBMI(e) {
       showResult(`Obese: <span>${bmi}</span>`, 'red');
     }
   }
+    reset.style.display = "block";
 }
 
 function showResult(val, color) {
