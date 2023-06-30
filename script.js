@@ -42,3 +42,10 @@ function showResult(val, color) {
   result.style.backgroundColor = color;
   return (result.innerHTML = val);
 }
+
+reset.addEventListener("click", () => {
+    document.querySelector("form").reset();
+    reset.style.display = 'none';
+    result.style.display = 'none';
+
+})
