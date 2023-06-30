@@ -35,7 +35,8 @@ function calculateBMI(e) {
       showResult(`Obese: <span>${bmi}</span>`, 'red');
     }
   }
-    reset.style.display = "block";
+  result.style.display = 'block';
+  reset.style.display = 'block';
 }
 
 function showResult(val, color) {
@@ -43,9 +44,8 @@ function showResult(val, color) {
   return (result.innerHTML = val);
 }
 
-reset.addEventListener("click", () => {
-    document.querySelector("form").reset();
-    reset.style.display = 'none';
-    result.style.display = 'none';
-
-})
+reset.addEventListener('click', () => {
+  document.querySelector('form').reset();
+  reset.style.display = 'none';
+  result.style.display = 'none';
+});
